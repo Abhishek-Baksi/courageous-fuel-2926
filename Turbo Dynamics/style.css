@@ -1,0 +1,188 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* HEADER PART */
+
+
+/* Header TOP */
+#headerTop{
+    display: inline-flex;
+    /* position: fixed; */
+    width: 100%;
+    height: 30px;
+    background-color: #fee8e8;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+#headerTop>div:nth-child(1){
+    /* border: 1px solid red; */
+}
+#headerTop>div:nth-child(2){
+    /* border: 1px solid red; */
+}
+#headerTop>div>img{
+    width: 18px;
+    /* border: 1px solid navy; */
+    
+}
+/* Header Bottom */
+
+#headerBottom{
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+
+}
+#logo{
+    width: 12%;
+    margin-left: 2px;
+    /* border: 1px solid blue; */
+}
+#logo>img{
+    width: 100%;
+    display: block;
+}
+
+
+#search{
+    position: absolute;
+    width: 36%;
+    height: 45px;
+    padding-left: 15px;
+    background-color: #F5F5F6;
+    border-radius: 3px;
+    border: 1px solid #999;
+
+}
+#search input {
+    /* styling for the placeholder text */
+    width: 94%;
+    color: #999;
+    float: right;
+    height: 32px;
+    margin-top: 5px;
+    padding-left: 5%;
+    border:none;
+    outline-width: 0;
+    font-size: large;
+    background-color: #fafafa;
+  }
+ #search>i{
+    width: 6%;
+    margin-top: 9px;
+    /* padding-left: 4%; */
+    font-size: 22px;
+    color: #a9acb7;
+    /* border: 1px solid red; */
+    /* background-color: black; */
+  }
+
+
+  /*All page nav BAR */
+  nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+    font-weight: 500;
+  }
+
+  /*Homepage Banner1 Advertisement */
+  #banner1{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 9px;
+    border: 1px solid blue;
+  }
+  #banner1>img{
+    display: block;
+    width: 100%;
+  }
+
+  /* Homepage Banner2 Sliding */
+  #banner2{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 9px;
+    border: 1px solid blue;
+  }
+  #banner2>img{
+    display: block;
+    width: 100%;
+  }
+
+/* Makeup-Page  */
+  #sectionTop>h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #SectionTopContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    /* gap: 5px; */
+    margin: auto;
+    /* border: 1px solid red; */
+    
+  }
+  #SectionTopContainer>div{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15%;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid red; */
+    
+  }
+
+  #SectionTopContainer>div>img{
+    width: 100%;
+    overflow: hidden;
+    
+    
+  }
+  #SectionTopContainer>div>img:hover{
+    transform: scale3d(1.05,1.05,1.05);
+    transition: .3s ease-in-out;
+  }
+ 
+  #SectionTopContainer>div>h3{
+    
+    font-weight: 550;
+    /* border: solid 1px blue; */
+  }
+  #SectionTopContainer>div>h4{
+    /* color: #737373; */
+    color: black;
+    font-weight: 300;
+    font-size: 10px;
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    /* border: solid 1px blue; */
+  }
+  
+  

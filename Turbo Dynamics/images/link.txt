@@ -1,0 +1,28 @@
+nav-bar
+mini-logo - https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg
+
+	header
+
+logo - https://files.myglamm.com/site-images/original/Number-1-logo-strip-3360-x-279.gif
+banner1- https://files.myglamm.com/site-images/original/1920x527-7.jpg 
+banner2- https://files.myglamm.com/site-images/original/Homepage-desktop---1920-x-527---CTA-yes_9.png
+banner 1 and banner 2 are sliding
+
+	body
+		upper-body
+
+div1 image- https://files.myglamm.com/site-images/original/700x488-3_1.jpg
+div2 image- https://files.myglamm.com/site-images/original/700x488-copy-2_2.jpg
+div3 image- https://files.myglamm.com/site-images/original/700x488-copy-2-1.jpg
+
+		mid-body
+
+banner1- https://files.myglamm.com/site-images/original/SS-sleek-Desktop-2240-x-614.png
+
+div1 image- https://files.myglamm.com/site-images/original/Lip700x488_1.jpg
+div2 image- https://files.myglamm.com/site-images/original/MM700x488_6.jpg
+div3 image- https://files.myglamm.com/site-images/original/popxo700x488_1.jpg
+
+banner2- https://files.myglamm.com/site-images/original/lit2240x614_3.jpg
+
+
