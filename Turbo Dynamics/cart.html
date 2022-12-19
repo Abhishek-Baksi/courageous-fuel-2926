@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Glamm | Cart</title>
+    <link rel="icon" href="https://files.myglamm.com/site-images/original/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css\css\all.min.css">
+	<link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<body>
+    <header id="header">
+        <div id="headerTop">
+            <div>
+                <img src="images\downloaded\giftStore.svg" alt="store">
+                <p>Pick Any Product at Rs 199<span id="headerTopSpan">SHOP NOW</span></p>
+            </div>
+            <div>
+                <img src="images\downloaded\store.svg" alt="">
+                <p>MyGlamm Store</p>
+            </div>
+        </div>
+        <div id="headerBottom">
+            <div id="logo">
+                <img src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg" alt="">
+            </div>
+            <div>
+                <div id="search" onclick="OpenSearch()">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input id="searchBox"   type="text" placeholder="Find Lipstick, Eyeliner, Makeup Tutorial, etc">
+                     <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                </div>
+                <div id="searchResults" class="searchResults">
+                    <!-- search results will be displayed here -->
+                  </div>
+                  
+            </div>
+            <div id="cartLogin">
+                <img src="https://cdn-icons-png.flaticon.com/128/2832/2832499.png" alt="">
+                <img src="images\downloaded\line.svg" alt="">
+                <button id="user"><img src="https://cdn-icons-png.flaticon.com/128/3114/3114957.png" alt=""></button>
+            </div>
+            
+        </div>
+        <nav id="nav">
+            <div class="menu">
+                <div class="mega-menu">
+                    <p><a href="index.html">HOME</a></p>
+                    
+                </div>
+                <div class="mega-menu">
+                    <p id="pTag"><a href="makeup.html">MAKEUP</a></p>
+                    <div class="wrapper">
+                        <div class="sub-menu">
+                                <span>LIPS</span>
+                                <p><a href="#">Lipstick</a></p>
+                                <p><a href="#">Crayon Lipstick</a></p>
+                                <p><a href="#">Liquid Lipstick</a></p>
+                                <p><a href="#">Hi-Shine Lipstick</a></p>
+                                <p><a href="#">Matte Lipstick</a></p>
+                                <p><a href="#">Lip Gloss</a></p>
+                                <p><a href="#">Lip Liner</a></p>
+                                <p><a href="#">Lip Balm</a></p>
+                                <p><a href="#">Lip Glitter</a></p>
+                                <p><a href="#">Lip Stain</a></p>
+                                <p><a href="#">Lipstick Set</a></p>
+                                <p><a href="#">Lip Kit</a></p>
+                                <p><a href="#">Find Your Lipstick</a></p>
+                        </div>
+                        <div class="sub-menu">
+                            <span>FACE</span>
+                                <p><a href="#">Fixing Powder</a></p>
+                                <p><a href="#">Primer</a></p>
+                                <p><a href="#">Concealer</a></p>
+                                <p><a href="#">Foundation</a></p>
+                                <p><a href="#">Compact Powder</a></p>
+                                <p><a href="#">Setting Powder</a></p>
+                                <p><a href="#">Banana Powder</a></p>
+                                <p><a href="#">Sindoor</a></p>
+                                <p><a href="#">Highlighter</a></p>
+                                <p><a href="#">Blush</a></p>
+                                <p><a href="#">Bronzer</a></p>
+                                <p><a href="#">Cheek Stain</a></p>
+                        </div>
+                        <div class="sub-menu">
+                            <span>EYES</span>
+                                <p><a href="#">Eye Shadow</a></p>
+                                <p><a href="#">Eyeliner</a></p>
+                                <p><a href="#">Eyebrows</a></p>
+                                <p><a href="#">Glitter</a></p>
+                                <p><a href="#">Mascara</a></p>
+                                <p><a href="#">Kajal</a></p>
+                                <p><a href="#">Eye Combos</a></p>
+                        </div>
+                        <div class="sub-menu">
+                                <span>NAILS</span>
+                                <p><a href="#">Nail Lacquer</a></p>
+                                <p><a href="#">Nail Polish</a></p>
+                                <p><a href="#">Matte Nail Polish</a></p>
+
+                                <div class="comboAcce">
+                                    <span>KITS AND COMBOS</span>
+                                    <p><a href="#">Nail Lacquer</a></p>
+                                    <p><a href="#">Nail Polish</a></p>
+                                    <p><a href="#">Matte Nail Polish</a></p>
+                                </div>
+                                <div class="comboAcce">
+                                    <span>MAKEUP ACCESSORIES</span>
+                                    <p><a href="#">Nail Lacquer</a></p>
+                                    <p><a href="#">Nail Polish</a></p>
+                                    <p><a href="#">Matte Nail Polish</a></p>
+                                </div>
+                        </div>
+                        
+                </div>
+                
+                
+            
+            </div>
+            <div class="mega-menu">
+                <p><a href="#">HAIRCARE</a></p>
+                <div class="wrapper">
+                    <div class="sub-menu">
+                        <h4>EYES</h4>
+                            <p><a href="#">Eye Shadow</a></p>
+                            <p><a href="#">Eyeliner</a></p>
+                            <p><a href="#">Eyebrows</a></p>
+                            <p><a href="#">Glitter</a></p>
+                            <p><a href="#">Mascara</a></p>
+                            <p><a href="#">Kajal</a></p>
+                            <p><a href="#">Eye Combos</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mega-menu">
+                <p><a href="#">SKINCARE</a></p>
+            </div>
+            <div class="mega-menu">
+                <p><a href="#">SANITIZING CARE</a></p>
+            </div>
+            <div class="mega-menu">
+                <p><a href="#">COLLECTION</a></p>
+            </div>
+            <div class="mega-menu">
+                <p><a href="#">REWARDS</a></p>
+            </div>
+            <div class="mega-menu">
+                <p><a href="#">MYGLAMM STUDIO</a></p>
+            </div>
+            <div class="mega-menu">
+                <p><a href="#">OFFERS</a></p>
+            </div>
+        </nav>
+    </header> 
+
+    <div class="iamsleepy">
+        <div class="cartEmpty" id="test">
+
+            <h4>Oops! Your bag is empty!</h4>
+    
+            <img src="https://files.myglamm.com/site-images/original/img-empty-shopping-cart.png" alt="">
+        </div>
+    </div>     
+    
+<div id="cart-container" class="cartCont">
+            <!-- using dom -->
+                   
+            
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="footer">
+        <div id="footerTop">
+        <div>
+            <h4>LIPS</h4>
+            <ul>
+                <li>Lipstick</li>
+                <li>Crayon Lipstick</li>
+                <li>Matte Lipstick</li>
+                <li>Hi-Shine<br>Lipstick</li>
+                <li>Liquid Lipstick</li>
+                <li>Lip Gloss</li>
+                <li>HI-Shine<br>Lipgloss</li>
+                <li>Lip Liner</li>
+                <li>Lip Balm</li>
+                <li>Glitter</li>
+                <li>Lip Stain</li>
+                <li>Lipstick Set</li>
+                <li>Lip Kit</li>
+                <li>Find Your <br>Lipstick</li>
+            </ul>
+        </div>
+        <div>
+            <h4>FACE</h4>
+            <ul>
+                <li>Face Sets</li>
+                <li>Fixing Powder</li>
+                <li>Primer</li>
+                <li>Concealer</li>
+                <li>Foundation</li>
+                <li>Compact</li>
+                <li>Banana Powder</li>
+                <li>Highlighter</li>
+                <li>Blush</li>
+                <li>Bronzer</li>
+                <li>Sindoor</li>
+                <li>Cheek Stain</li>
+                <li>Setting Powder</li>
+                <li>Makeup<br>Accessories</li>
+                <li>Makeup Brushes</li>
+            </ul>
+        </div>
+        <div>
+            <h4>EYES</h4>
+            <ul>
+                <li>Eye Shadow</li>
+                <li>Eyeliner</li>
+                <li>Eyebrows</li>
+                <li>Glitter</li>
+                <li>Mascara</li>
+                <li>Kajal</li>
+                <li>Eyeshadow<br>Brushes</li>
+                <li>Eye Combos</li>
+            </ul>
+        </div>
+        <div>
+            <h4>NAILS</h4>
+            <ul>
+                <li>Nail Polish</li>
+                <li>Matte Nail<br>Polish</li>
+                <li>Nail Lacquer</li>
+            </ul>
+        </div>
+        <div>
+            <h4>SKINCARE</h4>
+            <ul>
+                <li>Moisturiser</li>
+                <li>Night Cream</li>
+                <li>Eye Cream</li>
+                <li>Body lotion</li>
+                <li>Serum</li>
+                <li>Sunscreen</li>
+                <li>Skincare Kits</li>
+                <li>Cleansing<br>Products</li>
+                <li>Exfoliator &<br>Scrub</li>
+                <li>Face Wash</li>
+                <li>Cleanser</li>
+                <li>Mask</li>
+                <li>Face Pack</li>
+                <li>Sheet Mask</li>
+            </ul>
+        </div>
+        <div>
+            <h4>BATH & BODY</h4>
+            <ul>
+                <li>Shower Gels</li>
+                <li>Soaps</li>
+                <li>Body Lotion</li>
+                <li>Body Spray &<br>Mists</li>
+                <li>Hand Wash</li>
+                <li>Foot Cream</li>
+            </ul>
+        </div>
+        <div>
+            <h4>SANITIZING<br>CARE</h4>
+            <ul>
+                <li>Sanitizing<br>Wipes</li>
+                <li>Sanitizing Kits</li>
+                <li>Sanitizing<br>Spray</li>
+                <li>Hand Sanitizer</li>
+            </ul>
+        </div>
+        <div>
+            <h4>KITS & COMBOS</h4>
+            <ul>
+                <li>Makeup Kits</li>
+                <li>Bridal Makeup Kits</li>
+                <li>Makeup Combo</li>
+                <li>Makeup Gift Sets</li>
+                <li>Cosmetics Kits &<br>Combos</li>
+            </ul>
+        </div>
+        <div>
+            <h4>HAIR CARE</h4>
+            <ul>
+                <li>Shampoo</li>
+                <li>Conditioner</li>
+                <li>Hair Oil</li>
+                <li>Serum</li>
+                <li>Hair Mask</li>
+                <li>Combos</li>
+            </ul>
+        </div>
+        <div>
+            <h4>MYGLAMMSTUDIO</h4>
+            <ul>
+                <li>Style</li>
+                <li>Lifestyle</li>
+                <li>Trends</li>
+                <li>Tips</li>
+                <li>Beauty</li>
+                <li>Tutorials</li>
+            </ul>
+        </div>
+        <div>
+            <h4>KNOW MORE</h4>
+            <ul>
+                <li>About Us</li>
+                <li>Exclusive Offers</li>
+                <li>Refer & Earn</li>
+                <li>myglammPARTIES</li>
+                <li>Store Locator</li>
+                <li>Press & Media</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Shipping and Delivery<br>policy</li>
+                <li>Returns and<br>Replacements</li>
+                <li>Loyalty Program Policy</li>
+                <li>Sitemap</li>
+                <li>Responsible Disclosure<br>Policy</li>
+            </ul>
+        </div>
+    </div>
+    <div id="footerBottom">
+        <div id="end1">
+            <h5>SUBSCRIBE FOR MYGLAMM EMAILS</h5>
+            <div id="SUBSCRIBE">
+                <input id="inputfooteremail" type="email" placeholder="Please enter valid email ID">
+                <button>SUBSCRIBE NOW</button>
+                <div id="connected">
+                            <span><p>STAY CONNECTED</p></span>
+                            <span>
+                                |
+                            </span>
+                            <img src="images\downloaded\insta.svg" alt="">
+                            <img src="images\downloaded\twitter.svg" alt="">
+                            <img src="images\downloaded\pininterrest.svg" alt="">
+                            <img src="images\downloaded\youtube.svg" alt="">
+                </div>
+            </div>
+            
+             
+        </div>
+            <div id="end2">
+                <h5>EXPERIENCE THE MYGLAMM MOBILE APP</h5>
+                <div>
+                <img src="https://files.myglamm.com/site-images/original/iosStore.png" alt="">
+                <img src="https://files.myglamm.com/site-images/original/playStore.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    
+    </footer>
+    
+    <div class="signupPopupdiv" id="SignUppopupWindow"> 
+        <span class="signupPopupSpan" onclick="closeSignup()"><i class="fa-solid fa-xmark"></i></span>
+        <p>Get 15% Good Points back on every order</p>
+        <img src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg" alt="">
+          <h5>*Mobile Number</h5>
+          <div class="mobileInputDiv">
+            <div class="div0">
+              <span><img src="https://files.myglamm.com/site-images/original/india.png" alt=""></span>
+              <input id="inp1" type="number" placeholder="+91"  readonly>
+              <input id="inp2" type="number"  name="mobileNumber" required>
+            </div>
+            <button id="signUpBtn">SIGN IN</button>
+            <span class="spanP"><p>or continue with</p></span>
+            <div class="parentdiv1div2">
+              <div class="div1">
+                <img src="https://files.myglamm.com/site-images/original/facebook_1.png" alt="">
+                <p>Continue with FaceBook</p>
+              </div>
+              <div class="div2">
+                <img src="https://files.myglamm.com/site-images/original/ico-google.png" alt="">
+                <p>Continue with Google</p>
+              </div>
+            </div>
+            <span class="spanTandC"><p>By Signing up you agree to our <b>Terms & Conditions</b></p></span>
+          </div>
+          
+      </div>
+</body>
+<script>
+
+let cartContainer = document.getElementById("cart-container");
+let check = document.getElementById("test");
+// let totalH1 = document.getElementById("totalH1");
+
+let cart = JSON.parse(localStorage.getItem("cart"));
+if(cart.length==0){
+    check.classList.toggle("cartEmpty");   
+}else{
+    check.classList.toggle("cartNotEmpty");
+}
+
+cart.forEach((product) => {
+  appendProductToCart(product);
+  
+});
+function appendProductToCart(product) {
+//    cartContainer.innerHTML=null;
+  let productDiv = document.createElement("div");
+
+  let image = document.createElement("img");
+  image.setAttribute("src", product.img);
+  let name = document.createElement("h3");
+  name.innerText = product.name;
+  let description = document.createElement("h4");
+  description.innerText = product.description;
+  let price = document.createElement("h6");
+  price.innerText = product.offerprice;
+  let count = document.createElement("p");
+  count.innerText = product.count;
+  let removeBtn = document.createElement("button");
+  removeBtn.innerText = "Remove";
+
+  removeBtn.addEventListener("click", () => {
+    removeProductFromCart(product);
+    productDiv.remove();
+  });
+
+
+  productDiv.append(image);
+  productDiv.append(name);
+  productDiv.append(description);
+  productDiv.append(price);
+  productDiv.append(count);
+  productDiv.append(removeBtn);
+
+ 
+  cartContainer.append(productDiv);
+}
+
+function removeProductFromCart(product) {
+  let cart = JSON.parse(localStorage.getItem("cart"));
+  let productIndex = cart.findIndex((item) => item.name === product.name);
+  cart.splice(productIndex, 1);
+  localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+
+// function calculateTotal() {
+//   let totalProductCount = 0;
+//   let totalPrice = 0;
+
+//   // Get all the count divs in the page
+//   const countDivs = document.querySelectorAll('.count');
+
+//   // Loop through the count divs and sum up the offerprice and count values
+//   countDivs.forEach(div => {
+//     totalProductCount += div.innerText;
+//     totalPrice += div.dataset.offerprice * div.innerText;
+//   });
+
+//   console.log(`Total product count: ${totalProductCount}`);
+//   console.log(totalPrice);
+//   totalH1.innerText = totalPrice.toString();
+// }
+
+
+// let checkoutBtn = document.createElement("button");
+// checkoutBtn.innerText = "Proceed to Checkout";
+// cartContainer.append(checkoutBtn);
+
+let HOME = document.getElementById("logo");
+
+HOME.addEventListener("click",()=>{
+  window.location.href = 'index.html';
+})
+
+
+
+</script>
+</html>
